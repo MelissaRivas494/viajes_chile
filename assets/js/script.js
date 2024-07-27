@@ -5,7 +5,7 @@ $("a").on('click', function (event) {
         let hash = this.hash;
         $('html, body').animate({
             scrollTop: $(hash).offset().top
-        }, 800, function () {
+        }, 400, function () {
             window.location.hash = hash;
         });
     }
@@ -14,5 +14,12 @@ $("a").on('click', function (event) {
 $(document).ready(function() {
     $('.img-card').dblclick(function() {
         $('.card-custom').toggle();
+    });
+});
+
+$(document).ready(function() {
+    $("#contactForm").on('submit', function(event) {
+        event.preventDefault();
+        alert("Tu correo fue enviado exitosamente");
     });
 });

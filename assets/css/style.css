@@ -1,6 +1,7 @@
 body {
     color: white;
     background-color: black;
+    font-family: "Roboto", sans-serif;
 }
 
 .navbar {
@@ -21,7 +22,6 @@ body {
 .title {
     display: flex;
     justify-content: center;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
@@ -33,7 +33,6 @@ body {
 }
 
 .card-text {
-    font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: small;
