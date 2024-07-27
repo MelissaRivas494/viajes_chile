@@ -3,19 +3,50 @@ body {
     background-color: black;
 }
 
-.card{
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card {
     color: white;
     background-color: black;
+    margin-bottom: 20px;
 }
 
-.icon {
-    background-color: rgb(40, 214, 245);
+.card-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: small;
+    text-align: justify;
 }
 
-.destacados .card-body {
-    background-color: rgb(40, 214, 245);
+.img-card {
+    object-fit: cover;
+    height: 220px;
 }
 
+.icon,
+#Destacados .card-body,
 .btn {
     background-color: rgb(40, 214, 245);
 }
@@ -28,7 +59,7 @@ footer {
     background-color: rgb(40, 214, 245);
 }
 
-.footer-icons .fa-brands{
+.footer-icons .fa-brands {
     color: white;
     background-color: rgb(40, 214, 245);
 }

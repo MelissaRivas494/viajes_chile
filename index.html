@@ -27,7 +27,7 @@
 <body>
 
   <!--NavBar-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" width="25px" alt="logo ViajesChile">
         ViajesChile</a>
@@ -41,13 +41,13 @@
             <a class="nav-link" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Quienes Somos</a>
+            <a class="nav-link" href="#Quienes-somos">Quienes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Destacados</a>
+            <a class="nav-link" href="#Destacados">Destacados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#Contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -57,7 +57,7 @@
 
   <!--Header/Carousel-->
   <section>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Llamas norte de Chile">
@@ -83,53 +83,66 @@
 
   <!--Section Quienes Somos-->
 
-  <section class="container py-5 justify-content-center">
+  <section class="container py-5 d-none d-md-block" id="Quienes-somos">
+
     <div>
-      <h2>QUIENES SOMOS</h2>
+      <h2 class="title">QUIENES SOMOS</h2>
 
       <hr>
     </div>
 
-    <div class="row">
-      <div class="card text-center" style="width: 18rem;">
-        <div class="icon">
-          <i class="fa-solid fa-plane"></i>
-        </div>
-        <div class="card-body">
-          <p class="card-text">
-          <p>Lorem ipsum dolor sit amet. Est beatae doloribus aut eveniet sunt ut omnis laudantium sit eligendi beatae
-            sed autem consequatur. Et nostrum labore cum impedit modi vel obcaecati autem a velit earum cum quaerat
-            eveniet quo quod dignissimos. Et autem voluptas ut amet ullam sit tempora quia. Ad sint natus et recusandae
-            incidunt est vitae nihil quo inventore quia non aliquam voluptate qui beatae galisum qui mollitia quia.</p>
-          </p>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <div class="card text-center">
+          <div class="icon py-1">
+            <i class="fa-solid fa-plane"></i>
+          </div>
+          <div class="card-body d-flex flex-column justify-content-between">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet. Est beatae doloribus aut eveniet sunt ut omnis laudantium sit eligendi beatae
+              sed autem consequatur. Et nostrum labore cum impedit modi vel obcaecati autem a velit earum cum quaerat
+              eveniet quo quod dignissimos. Et autem voluptas ut amet ullam sit tempora quia. Ad sint natus et
+              recusandae
+              incidunt est vitae nihil quo inventore quia non aliquam voluptate qui beatae galisum qui mollitia quia.
+
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="card text-center" style="width: 18rem;">
-        <div class="card-body">
-          <p class="card-text">
-          <p>Lorem ipsum dolor sit amet. Est beatae doloribus aut eveniet sunt ut omnis laudantium sit eligendi beatae
-            sed autem consequatur. Et nostrum labore cum impedit modi vel obcaecati autem a velit earum cum quaerat
-            eveniet quo quod dignissimos. Et autem voluptas ut amet ullam sit tempora quia. Ad sint natus et recusandae
-            incidunt est vitae nihil quo inventore quia non aliquam voluptate qui beatae galisum qui mollitia quia.</p>
-          </p>
-        </div>
-        <div class="icon">
-          <i class="fa-solid fa-mountain"></i>
+      <div class="col-4">
+        <div class="card text-center">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet. Est beatae doloribus aut eveniet sunt ut omnis laudantium sit eligendi beatae
+              sed autem consequatur. Et nostrum labore cum impedit modi vel obcaecati autem a velit earum cum quaerat
+              eveniet quo quod dignissimos. Et autem voluptas ut amet ullam sit tempora quia. Ad sint natus et
+              recusandae
+              incidunt est vitae nihil quo inventore quia non aliquam voluptate qui beatae galisum qui mollitia quia.
+
+            </p>
+          </div>
+          <div class="icon py-1">
+            <i class="fa-solid fa-mountain"></i>
+          </div>
         </div>
       </div>
 
-      <div class="card text-center" style="width: 18rem;">
-        <div class="icon">
-          <i class="fa-solid fa-route"></i>
-        </div>
-        <div class="card-body">
-          <p class="card-text">
-          <p>Lorem ipsum dolor sit amet. Est beatae doloribus aut eveniet sunt ut omnis laudantium sit eligendi beatae
-            sed autem consequatur. Et nostrum labore cum impedit modi vel obcaecati autem a velit earum cum quaerat
-            eveniet quo quod dignissimos. Et autem voluptas ut amet ullam sit tempora quia. Ad sint natus et recusandae
-            incidunt est vitae nihil quo inventore quia non aliquam voluptate qui beatae galisum qui mollitia quia.</p>
-          </p>
+      <div class="col-4">
+        <div class="card text-center">
+          <div class="icon py-1">
+            <i class="fa-solid fa-route"></i>
+          </div>
+          <div class="card-body d-flex flex-column justify-content-between">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet. Est beatae doloribus aut eveniet sunt ut omnis laudantium sit eligendi beatae
+              sed autem consequatur. Et nostrum labore cum impedit modi vel obcaecati autem a velit earum cum quaerat
+              eveniet quo quod dignissimos. Et autem voluptas ut amet ullam sit tempora quia. Ad sint natus et
+              recusandae
+              incidunt est vitae nihil quo inventore quia non aliquam voluptate qui beatae galisum qui mollitia quia.
+
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -139,55 +152,63 @@
 
   <!--Section Destacados-->
 
-  <section class="destacados py-5">
+  <section class="container py-5" id="Destacados">
     <div>
-      <h2>DESTACADOS</h2>
+      <h2 class="title">DESTACADOS</h2>
       <hr>
     </div>
 
-    <div class="row">
+    <div class="row justify-content-center">
 
-      <div class="card" style="width: 18rem;">
-        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-          <p>Lorem ipsum dolor sit amet. Sed quas officia non consequatur consectetur qui vitae fuga aut sequi
-            molestiae. Vel unde tempore hic minus alias et velit reiciendis non provident vitae. </p>
-          </p>
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="assets/img/card1.jpg" class="card-img-top img-card" alt="...">
+          <div class="card-body">
+            <h5 class="card-title card-custom">Card title</h5>
+            <p class="card-text card-custom">
+              Lorem ipsum dolor sit amet. Sed quas officia non consequatur consectetur qui vitae fuga aut sequi
+              molestiae. Vel unde tempore hic minus alias et velit reiciendis non provident vitae.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-          <p>Lorem ipsum dolor sit amet. Sed quas officia non consequatur consectetur qui vitae fuga aut sequi
-            molestiae. Vel unde tempore hic minus alias et velit reiciendis non provident vitae. </p>
-          </p>
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="assets/img/card2.jpg" class="card-img-top img-card" alt="...">
+          <div class="card-body">
+            <h5 class="card-title card-custom">Card title</h5>
+            <p class="card-text card-custom">
+              Lorem ipsum dolor sit amet. Sed quas officia non consequatur consectetur qui vitae fuga aut sequi
+              molestiae. Vel unde tempore hic minus alias et velit reiciendis non provident vitae.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-          <p>Lorem ipsum dolor sit amet. Sed quas officia non consequatur consectetur qui vitae fuga aut sequi
-            molestiae. Vel unde tempore hic minus alias et velit reiciendis non provident vitae. </p>
-          </p>
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="assets/img/card3.jpg" class="card-img-top img-card" alt="...">
+          <div class="card-body">
+            <h5 class="card-title card-custom">Card title</h5>
+            <p class="card-text card-custom">
+              Lorem ipsum dolor sit amet. Sed quas officia non consequatur consectetur qui vitae fuga aut sequi
+              molestiae. Vel unde tempore hic minus alias et velit reiciendis non provident vitae.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-          <p>Lorem ipsum dolor sit amet. Sed quas officia non consequatur consectetur qui vitae fuga aut sequi
-            molestiae. Vel unde tempore hic minus alias et velit reiciendis non provident vitae. </p>
-          </p>
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="assets/img/card4.jpg" class="card-img-top img-card" alt="...">
+          <div class="card-body">
+            <h5 class="card-title card-custom">Card title</h5>
+            <p class="card-text card-custom">
+              Lorem ipsum dolor sit amet. Sed quas officia non consequatur consectetur qui vitae fuga aut sequi
+              molestiae. Vel unde tempore hic minus alias et velit reiciendis non provident vitae.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -196,30 +217,30 @@
 
   <!--Form Contacto-->
 
-  <section class="container py-5">
+  <section class="container py-5" id="Contacto">
     <div>
-        <h2>Contacto</h2>
+      <h2 class="title">CONTACTO</h2>
 
-        <hr>
+      <hr>
     </div>
 
     <form>
-        <div class="mb-3">
-            <label for="FormControlInput1" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="FormControlInput1">
-        </div>
-        <div class="mb-3">
-            <label for="FormControlInput2" class="form-label">Asunto</label>
-            <input type="text" class="form-control" id="FormControlInput2">
-        </div>
-        <div class="mb-3">
-            <label for="FormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn">Enviar</button>
+      <div class="mb-3">
+        <label for="FormControlInput1" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="FormControlInput1">
+      </div>
+      <div class="mb-3">
+        <label for="FormControlInput2" class="form-label">Asunto</label>
+        <input type="text" class="form-control" id="FormControlInput2">
+      </div>
+      <div class="mb-3">
+        <label for="FormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn">Enviar</button>
     </form>
 
-</section>
+  </section>
 
 
 
@@ -227,8 +248,8 @@
   <!--Footer-->
 
   <footer>
-    <div class="footer-name">VIAJES CHILE</div>
-    <div class="footer-icons">
+    <div class="footer-name px-3">VIAJES CHILE</div>
+    <div class="footer-icons px-3">
       <a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
       <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
       <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
@@ -236,6 +257,11 @@
     </div>
   </footer>
 
+
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
 
   <!--Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
